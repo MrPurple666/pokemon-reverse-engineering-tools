@@ -4,15 +4,15 @@ from __future__ import division
 from __future__ import print_function
 
 import os
-from . import png
+import png
 from math import sqrt, floor, ceil
 import argparse
 import operator
 
-from . import configuration
+import configuration
 config = configuration.Config()
 
-from .lz import Compressed, Decompressed
+from lz import Compressed, Decompressed
 
 
 def split(list_, interval):

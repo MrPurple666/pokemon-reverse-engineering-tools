@@ -11,7 +11,7 @@ import sys
 import argparse
 from math import sqrt
 
-from .gfx import transpose_tiles
+from gfx import transpose_tiles
 
 
 def bitflip(x, n):
